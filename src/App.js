@@ -3,8 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 
 import Main from './Main';
 
-import './styles/App.scss';
-
 function App() {
   return (
     <section className="app">
