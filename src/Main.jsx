@@ -1,27 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Header from './Components/Header';
+
 const Main = () => {
   return (
     <>
-      <header className="header">
-        <h1 className="header__logo">
-          William<br></br>Hermozo
-        </h1>
-        <h2 className="header__title">
-          I’m a Front-End Developer & Web Designer.
-        </h2>
-        <h3 className="header__subtitle">
-          I design & code meaningful, user-centered applications for the modern
-          web.
-        </h3>
-        <ul className="header__links">
-          <li className="header__items">email</li>
-          <li className="header__items">linkedin</li>
-          <li className="header__items">github</li>
-          <li className="header__items">twitter</li>
-        </ul>
-      </header>
+      <Header />
       <main className="main">
         <section className="projects">
           <h4>
