@@ -27,6 +27,9 @@
     margin-right: 5.75rem;
     padding: 0;
     position: relative;
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 300;
+    font-size: 1rem;
 
     &::after {
       content: '';
@@ -45,23 +48,4 @@
       transform: scaleX(1);
     }
   }
-  // &__link::after {
-  //   content: '';
-  //   position: absolute;
-  //   bottom: 6px;
-  //   left: 4px;
-  //   height: 0.5rem;
-  //   // background-color: rgba(0, 120, 175, 0.459);
-  //   background-color: rgba(255, 255, 255, 0.459);
-  //   transition: all 0.3s ease-in-out;
-  //   // transform-origin: left;
-  //   // transform: scaleX(0);
-  //   width: 0;
-
-  // }
-
-  // &__link:hover::after {
-  //   width: 100%;
-  //   // transform: scaleX(1);
-  // }
 }

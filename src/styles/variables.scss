@@ -31,8 +31,8 @@ h2 {
   font-weight: 700;
   // font-size: 5.25rem;
   // line-height: 5.25rem;
-  font-size: 7vmax;
-  line-height: 7vmax;
+  font-size: 6vmax;
+  line-height: 6vmax;
 }
 
 h3 {
@@ -53,4 +53,5 @@ h5 {
   font-family: 'manrope';
   font-weight: 300;
   font-size: 2rem;
+  margin-bottom: $component-margin / 4;
 }

@@ -1,1 +1,12 @@
 @import './variables';
+
+.footer {
+  margin-top: 36vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__credits {
+    font-size: 0.75rem;
+  }
+}
