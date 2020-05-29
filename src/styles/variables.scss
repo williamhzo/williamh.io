@@ -1,6 +1,7 @@
 // spaces, margins
 
-$app-margin: 24px;
+$app-margin: 1.5rem;
+$component-margin: 2.25rem;
 
 // font
 
@@ -10,11 +11,19 @@ $primary-color: #f5f6f6;
 $secondary-color: #97a9a8;
 
 // links
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 
+// headings
 h1 {
   font-family: 'manrope';
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 h2 {
