@@ -29,8 +29,10 @@ h1 {
 h2 {
   font-family: 'Frank Ruhl Libre', Georgia, serif;
   font-weight: 700;
-  font-size: 5.25rem;
-  line-height: 5.25rem;
+  // font-size: 5.25rem;
+  // line-height: 5.25rem;
+  font-size: 7vmax;
+  line-height: 7vmax;
 }
 
 h3 {
@@ -42,12 +44,13 @@ h3 {
 
 h4 {
   font-family: 'manrope';
-  font-weight: 800;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: $component-margin * 2;
 }
 
 h5 {
   font-family: 'manrope';
-  font-weight: 500;
-  font-size: 2.75rem;
+  font-weight: 300;
+  font-size: 2rem;
 }
