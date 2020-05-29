@@ -1,7 +1,7 @@
 @import './variables';
 
 .header {
-  height: 100vh;
+  min-height: 100vh;
 
   &__wrapper {
     width: 86%;
@@ -34,11 +34,10 @@
       bottom: 2px;
       left: 4px;
       height: 0.5rem;
-      // background-color: rgba(0, 120, 175, 0.459);
+      width: 100%;
       background-color: rgba(255, 255, 255, 0.4);
       transition: transform 0.2s ease-in-out;
       transform: scaleX(0);
-      width: 100%;
       transform-origin: right;
     }
     &:hover::after {
