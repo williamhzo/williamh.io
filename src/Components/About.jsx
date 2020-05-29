@@ -14,8 +14,7 @@ const About = () => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          pariatur.
         </p>
         <p className="about__description">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -23,6 +22,18 @@ const About = () => {
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.
         </p>
+        <p className="about__description">
+          If you don't read Latin, you can download my resume{' '}
+          <a
+            href="williamh.io/assets/CV_William-HERMOZO-2020.pdf"
+            className="about__link"
+            target="_blank"
+          >
+            here
+          </a>
+          .
+        </p>
+        <hr className="projects__separator"></hr>
       </div>
     </section>
   );
