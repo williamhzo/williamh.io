@@ -1,7 +1,11 @@
 @import './reset';
 @import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Manrope:wght@300;400;500;800&display=swap');
 
 body {
+  font-family: 'Manrope', Arial, sans-serif;
+  background-color: $bg-color;
+  color: $primary-color;
 }
 
 main {
