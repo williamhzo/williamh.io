@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialLinks = () => {
   return (
-    <ul className="header__links">
+    <ul className="header__list">
       {/* <li className="header__items">
         <Link to='/README.md' className="header__links">email</Link>
       </li> */}

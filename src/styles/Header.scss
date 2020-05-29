@@ -1,1 +1,33 @@
 @import './variables';
+
+.header {
+  height: 100vh;
+
+  &__wrapper {
+    width: 86%;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-top: 32vmin;
+  }
+
+  &__subtitle {
+    margin-top: $component-margin;
+  }
+
+  &__list {
+    margin-top: $component-margin * 1.25;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__items {
+  }
+
+  &__links {
+    padding: 0.25rem 0.5rem;
+  }
+}
