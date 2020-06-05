@@ -3,9 +3,12 @@ import React, { useState } from 'react';
 const Contact = () => {
   const [copy, setCopy] = useState(false);
 
-  const emailName = 'hi';
-  const emailProvider = 'williamh';
-  const emailDomain = 'io';
+  // const emailName = 'hi';
+  // const emailProvider = 'williamh';
+  // const emailDomain = 'io';
+  const emailName = 'william.hermozo';
+  const emailProvider = 'pm';
+  const emailDomain = 'me';
 
   const stringToCopy = `${emailName}@${emailProvider}.${emailDomain}`;
 
@@ -53,7 +56,9 @@ const Contact = () => {
               onClick={copyToClipboard}
               className="contact__email"
             >{`${emailName}@${emailProvider}.${emailDomain}`}</span>{' '}
-            <span className="contact__email--copy">{copy ? '(copied!)' : '(click to copy)'}</span>
+            <span className="contact__email--copy">
+              {copy ? '(copied!)' : '(click to copy)'}
+            </span>
           </li>
           <li className="contact__item">
             Stalk me on{' '}
