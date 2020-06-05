@@ -6,9 +6,9 @@ const Contact = () => {
   // const emailName = 'hi';
   // const emailProvider = 'williamh';
   // const emailDomain = 'io';
-  const emailName = 'william.hermozo';
-  const emailProvider = 'pm';
-  const emailDomain = 'me';
+  const emailName = 'hi';
+  const emailProvider = 'williamh';
+  const emailDomain = 'io';
 
   const stringToCopy = `${emailName}@${emailProvider}.${emailDomain}`;
 
