@@ -25,7 +25,7 @@ const About = () => {
         <p className="about__description">
           If you don't read Latin, you can download my resume{' '}
           <a
-            href="assets/CV_William-HERMOZO-2020-min.pdf"
+            href="/media/CV_William-HERMOZO-2020-min.pdf"
             className="about__link"
             target="_blank"
           >
