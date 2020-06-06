@@ -29,7 +29,7 @@ const SocialLinks = () => {
       <li className="header__items">
         <a
           href="https://twitter.com/williamhzo"
-          className="header__links"
+          className="header__links header__links--last"
           target="_blank"
           rel="noopener noreferrer"
         >

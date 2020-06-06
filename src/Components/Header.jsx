@@ -10,7 +10,7 @@ const Header = () => {
       </h1>
       <div className="header__wrapper">
         <h2 className="header__title">
-          I’m a Front-End Developer & Web Designer.
+          I’m a <nobr>Front-End</nobr> Developer & Web Designer.
         </h2>
         <h3 className="header__subtitle">
           I design & code meaningful, user-centered applications for the modern

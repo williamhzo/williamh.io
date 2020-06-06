@@ -1,15 +1,15 @@
 @import './variables';
 
 .header {
-  min-height: 100vh;
+  height: 100vh;
 
   &__wrapper {
-    width: 86%;
+    width: 94%;
     margin: 0 auto;
   }
 
   &__title {
-    margin-top: 32vmin;
+    margin-top: 36vmin;
   }
 
   &__subtitle {
@@ -19,17 +19,18 @@
   &__list {
     margin-top: $component-margin * 1.25;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    width: 50%;
   }
 
   &__links {
-    margin-right: 5.75rem;
-    padding: 0;
-    position: relative;
     font-family: 'Frank Ruhl Libre';
     font-weight: 300;
     font-size: 1rem;
+    position: relative;
+    padding: 0;
+    // margin-right: 20vmin;
 
     &::after {
       content: '';
@@ -46,6 +47,24 @@
     &:hover::after {
       transform-origin: left;
       transform: scaleX(1);
+    }
+  }
+
+  // &__links--last {
+  //   margin-right: 0;
+  // }
+}
+
+@media (max-width: 512px) {
+  .header {
+    &__title {
+      margin-top: 24vmin;
+      hyphens: none;
+      word-wrap: none;
+    }
+
+    &__list {
+      width: 100%;
     }
   }
 }
