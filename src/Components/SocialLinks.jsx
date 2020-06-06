@@ -10,17 +10,29 @@ const SocialLinks = () => {
         <a
           href="https://www.linkedin.com/in/williamhermozo/"
           className="header__links"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           linkedin
         </a>
       </li>
       <li className="header__items">
-        <a href="https://github.com/williamhzo" className="header__links">
+        <a
+          href="https://github.com/williamhzo"
+          className="header__links"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           github
         </a>
       </li>
       <li className="header__items">
-        <a href="https://twitter.com/williamhzo" className="header__links">
+        <a
+          href="https://twitter.com/williamhzo"
+          className="header__links"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           twitter
         </a>
       </li>
