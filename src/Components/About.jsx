@@ -23,7 +23,7 @@ const About = () => {
           laborum.
         </p>
         <p className="about__description">
-          If you don't read Latin, you can download my resume{' '}
+          If you don't read Latin, you can take a look at my resume{' '}
           <a
             href="/media/CV_William-HERMOZO-2020-min.pdf"
             className="about__link"
