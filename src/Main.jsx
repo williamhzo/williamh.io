@@ -10,7 +10,6 @@ import Footer from './Components/Footer';
 // styles
 import './styles/App.scss';
 import './styles/Header.scss';
-import './styles/Header.scss';
 import './styles/Projects.scss';
 import './styles/About.scss';
 import './styles/Contact.scss';
