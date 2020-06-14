@@ -17,7 +17,7 @@ const Cursor = () => {
   }, []);
 
   const animateScaleCursorIn = (e) => {
-    setCursorSize(6);
+    setCursorSize(4);
     // console.log(e);
   };
 
