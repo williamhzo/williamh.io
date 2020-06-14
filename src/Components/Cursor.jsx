@@ -1,63 +1,44 @@
-// import React, { useEffect, useState, useRef } from 'react';
-import React from 'react';
-import TweenMax from 'gsap';
+import React, { useState, useEffect } from 'react';
 
 const Cursor = () => {
-  const cursor = document.querySelector('.cursor');
-  const follower = document.querySelector('.cursor-follower');
-  const projectLinks = document.querySelectorAll('.projects__link');
+  const [cursorPositionX, setCursorPositionX] = useState(null);
+  const [cursorPositionY, setCursorPositionY] = useState(null);
+  const [cursorSize, setCursorSize] = useState(1);
 
-  let posX, posY, mouseX, mouseY;
+  useEffect(() => {
+    const hoverLinks = document.querySelectorAll('.projects__link');
+    hoverLinks.forEach((link) =>
+      link.addEventListener('mouseenter', animateScaleCursorIn)
+    );
+    hoverLinks.forEach((link) =>
+      link.addEventListener('mouseleave', animateScaleCursorOut)
+    );
+    window.addEventListener('mousemove', editCursor);
+  }, []);
 
-  TweenMax.to({}, 0.016, {
-    repeat: -1,
-    onRepeat: function () {
-      posX += (mouseX - posX) / 9;
-      posY += (mouseY - posY) / 9;
-
-      TweenMax.set(follower, {
-        css: {
-          left: posX - 20,
-          top: posY - 20,
-        },
-      });
-
-      TweenMax.set(cursor, {
-        css: {
-          left: mouseX,
-          top: mouseY,
-        },
-      });
-    },
-  });
-
-  const handleMouseMove = (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-    console.log(mouseX, mouseY);
+  const animateScaleCursorIn = (e) => {
+    setCursorSize(6);
+    // console.log(e);
   };
 
-  const handleMouseEnter = () => {
-    cursor.addClass('active');
-    follower.addClass('active');
+  const animateScaleCursorOut = (e) => {
+    setCursorSize(1);
   };
 
-  const handleMouseLeave = () => {
-    cursor.removeClass('active');
-    follower.removeClass('active');
+  const editCursor = (e) => {
+    setCursorPositionX(e.clientX);
+    setCursorPositionY(e.clientY);
   };
 
-  window.addEventListener('mousemove', handleMouseMove);
-
-  projectLinks.forEach((link) => {
-    link.addEventListener('mouseenter', handleMouseEnter);
-    link.addEventListener('mouseleave', handleMouseLeave);
-  });
+  const cursorStyle = {
+    left: `${cursorPositionX}px`,
+    top: `${cursorPositionY}px`,
+    transform: `scale(${cursorSize})`,
+  };
 
   return (
     <>
-      <div onMouseMove={handleMouseMove} className="cursor"></div>
-      <div onMouseMove={handleMouseMove} className="cursor-follower"></div>
+      <div className="cursor" style={cursorStyle}></div>
     </>
   );
 };
