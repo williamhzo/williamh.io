@@ -1,42 +1,18 @@
 import React from 'react';
 
-const SocialLinks = () => {
+const SocialLinks = ({ link, shortName, fullName }) => {
   return (
-    <ul className="header__list">
-      {/* <li className="header__items">
-        <Link to='/README.md' className="header__links">email</Link>
-      </li> */}
-      <li className="header__items">
-        <a
-          href="https://www.linkedin.com/in/williamhermozo/"
-          className="header__links"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedin
-        </a>
-      </li>
-      <li className="header__items">
-        <a
-          href="https://github.com/williamhzo"
-          className="header__links"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github
-        </a>
-      </li>
-      <li className="header__items">
-        <a
-          href="https://twitter.com/williamhzo"
-          className="header__links header__links--last"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          twitter
-        </a>
-      </li>
-    </ul>
+    <li className="header__items">
+      <a
+        href={link}
+        className="header__links"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span className="header__links--shortName">{shortName}</span>
+        <span className="header__links--fullName">{fullName}</span>
+      </a>
+    </li>
   );
 };
 

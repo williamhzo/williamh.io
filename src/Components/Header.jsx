@@ -2,6 +2,8 @@ import React from 'react';
 
 import SocialLinks from './SocialLinks';
 
+import socials from '../data/socials.json';
+
 const Header = () => {
   return (
     <header className="header">
@@ -16,7 +18,16 @@ const Header = () => {
           I design & code meaningful, user-centered applications for the modern
           web.
         </h3>
-        <SocialLinks />
+        <ul className="header__list">
+          {socials.map((item, index) => (
+            <SocialLinks
+              key={index}
+              link={item.link}
+              shortName={item.shortName}
+              fullName={item.fullName}
+            />
+          ))}
+        </ul>
       </div>
     </header>
   );
