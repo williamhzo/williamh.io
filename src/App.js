@@ -1,17 +1,32 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
 
+// components
 import Cursor from './Components/Cursor';
+import Header from './Components/Header';
+import AllProjects from './Components/AllProjects';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
-import Main from './Main';
+// styles
+import './styles/App.scss';
+import './styles/Header.scss';
+import './styles/Projects.scss';
+import './styles/About.scss';
+import './styles/Contact.scss';
+import './styles/Footer.scss';
 
 function App() {
   return (
     <section className="app">
       <Cursor />
-      <Switch>
-        <Route exact path="/" component={Main} />
-      </Switch>
+      <Header />
+      <main className="main">
+        <AllProjects />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
     </section>
   );
 }
