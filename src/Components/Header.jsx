@@ -14,10 +14,6 @@ const Header = () => {
         <h2 className="header__title">
           I’m a <nobr>Front-End</nobr> Developer & Web Designer.
         </h2>
-        <h3 className="header__subtitle">
-          I design & code meaningful, user-centered applications for the modern
-          web.
-        </h3>
         <ul className="header__list">
           {socials.map((item, index) => (
             <SocialLinks
@@ -29,6 +25,10 @@ const Header = () => {
           ))}
         </ul>
       </div>
+      <h3 className="header__subtitle">
+        I design & code meaningful, user-centered applications for the modern
+        web.
+      </h3>
     </header>
   );
 };
