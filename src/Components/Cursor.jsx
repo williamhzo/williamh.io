@@ -7,10 +7,18 @@ const Cursor = () => {
 
   useEffect(() => {
     const hoverLinks = document.querySelectorAll('.animate-cursor');
+    const hoverLinksLarge = document.querySelectorAll('.animate-cursor-large');
+
     hoverLinks.forEach((link) =>
       link.addEventListener('mouseenter', animateScaleCursorIn)
     );
     hoverLinks.forEach((link) =>
+      link.addEventListener('mouseleave', animateScaleCursorOut)
+    );
+    hoverLinksLarge.forEach((link) =>
+      link.addEventListener('mouseenter', animateLargeScaleCursorIn)
+    );
+    hoverLinksLarge.forEach((link) =>
       link.addEventListener('mouseleave', animateScaleCursorOut)
     );
     window.addEventListener('mousemove', editCursor);
@@ -18,7 +26,10 @@ const Cursor = () => {
 
   const animateScaleCursorIn = (e) => {
     setCursorSize(4);
-    // console.log(e);
+  };
+
+  const animateLargeScaleCursorIn = (e) => {
+    setCursorSize(6);
   };
 
   const animateScaleCursorOut = (e) => {
