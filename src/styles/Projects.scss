@@ -1,13 +1,19 @@
 @import './App';
 
 .projects {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: $component-margin * 2;
+  &__title {
+    // line-height: 12px;
+    padding-right: 2rem;
+  }
   &__wrapper {
-    width: 75%;
+    width: 70%;
     margin-left: auto;
   }
 
   &__link {
-    
   }
 
   &__description {
@@ -21,6 +27,7 @@
 
   &__technologies {
     font-size: 1.25rem;
+    margin-right: 2rem;
   }
 
   &__info {
