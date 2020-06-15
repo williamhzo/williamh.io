@@ -1,14 +1,20 @@
 [
   {
-    "name": "https://www.linkedin.com/in/williamhermozo/",
-    "description": "in",
-    "link": "linkedin",
-    "date": ""
+    "name": "freely",
+    "technologies": "React.js, Node.js, Express, MongoDB",
+    "description": "PWA, mobile-first | 2020",
+    "link": "https://www.freely.cool/"
   },
   {
-    "name": "https://www.linkedin.com/in/williamhermozo/",
-    "description": "in",
-    "link": "linkedin",
-    "date": ""
+    "name": "scoby",
+    "technologies": "Vanilla JS, Node.js, Express, MongoDB",
+    "description": "Map-based, mobile-first | 2020",
+    "link": "https://scoby-frw.herokuapp.com/"
+  },
+  {
+    "name": "emoji-quiz",
+    "technologies": "Vanilla JavaScript, HTML5, CSS3",
+    "description": "SPA | 2020",
+    "link": "https://williamhzo.github.io/emoji-quiz/"
   }
 ]
