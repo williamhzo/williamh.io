@@ -8,7 +8,7 @@ const Project = ({ name, technologies, description, link }) => {
           href={link}
           rel="noopener noreferrer"
           target="_blank"
-          className="projects__link"
+          className="projects__link animate-cursor"
         >
           {name}
         </a>

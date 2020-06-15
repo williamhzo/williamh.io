@@ -6,7 +6,7 @@ const Cursor = () => {
   const [cursorSize, setCursorSize] = useState(1);
 
   useEffect(() => {
-    const hoverLinks = document.querySelectorAll('.projects__link');
+    const hoverLinks = document.querySelectorAll('.animate-cursor');
     hoverLinks.forEach((link) =>
       link.addEventListener('mouseenter', animateScaleCursorIn)
     );
