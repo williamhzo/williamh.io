@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ name, technologies, description, link }) => {
   return (
-    <div className="projects__wrapper">
+    <div >
       <h5 className="projects__subtitle">
         <a
           href={link}
