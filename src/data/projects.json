@@ -7,7 +7,7 @@
   },
   {
     "name": "scoby",
-    "technologies": "Vanilla JS, Node.js, Express, MongoDB",
+    "technologies": "Vanilla JavaScript, Node.js, Express, MongoDB",
     "description": "Map-based, mobile-first | 2020",
     "link": "https://scoby-frw.herokuapp.com/"
   },
