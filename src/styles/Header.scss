@@ -32,6 +32,27 @@
     font-weight: 200;
     font-size: 1rem;
     padding: 8px 16px;
+    position: relative;
+  }
+
+  &__links--linkedin::after {
+    content: 'linkedin';
+    position: absolute;
+    left: -4px;
+    color: green;
+  }
+
+  &__links--github::after {
+    content: 'github';
+    position: absolute;
+    left: 3px;
+    color: green;
+  }
+  &__links--twitter::after {
+    content: 'twitter';
+    position: absolute;
+    left: 2px;
+    color: green;
   }
 }
 
