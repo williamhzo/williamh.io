@@ -6,16 +6,14 @@ const SocialLinks = ({ link, shortName, fullName }) => {
       <div></div>
       <a
         href={link}
-        className="header__links animate-cursor"
+        className="header__links animate-cursor-large"
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <span className="header__links--shortName animate-cursor">
-          {shortName}
-        </span> */}
-        <span className="header__links--fullName animate-cursor">
+        <span className={`header__links--${fullName} `}>{shortName}</span>
+        {/* <span className={`header__links--${fullName}--fullName `}>
           {fullName}
-        </span>
+        </span> */}
       </a>
     </li>
   );
