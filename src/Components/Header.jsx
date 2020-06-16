@@ -12,7 +12,11 @@ const Header = () => {
       </h1>
       <div className="header__wrapper">
         <h2 className="header__title">
-          I’m a <nobr>Front-End</nobr> Developer & Web Designer.
+          I’m a creative{' '}
+          <span className="header__title--fullCaps">
+            <nobr>Front-End</nobr> Developer
+          </span>{' '}
+          <span className="header__title--transparent">&</span> Web Designer.
         </h2>
         <ul className="header__list">
           {socials.map((item, index) => (
