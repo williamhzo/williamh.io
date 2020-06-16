@@ -29,7 +29,7 @@ const Cursor = () => {
   };
 
   const animateLargeScaleCursorIn = (e) => {
-    setCursorSize(6);
+    setCursorSize(8);
   };
 
   const animateScaleCursorOut = (e) => {
