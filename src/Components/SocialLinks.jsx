@@ -11,9 +11,6 @@ const SocialLinks = ({ link, shortName, fullName }) => {
         rel="noopener noreferrer"
       >
         <span className={`header__links--${fullName} `}>{shortName}</span>
-        {/* <span className={`header__links--${fullName}--fullName `}>
-          {fullName}
-        </span> */}
       </a>
     </li>
   );
