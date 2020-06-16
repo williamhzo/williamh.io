@@ -7,9 +7,7 @@ import socials from '../../data/socials.json';
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="header__logo">
-        William<br></br>Hermozo
-      </h1>
+      <h1 className="header__logo">William Hermozo</h1>
       <div className="header__wrapper">
         <h2 className="header__title">
           I’m a creative{' '}

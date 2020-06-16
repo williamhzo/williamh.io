@@ -3,6 +3,7 @@
 .header {
   &__logo {
     text-transform: uppercase;
+    letter-spacing: 0.4rem;
   }
 
   &__wrapper {
@@ -72,20 +73,33 @@
     content: 'linkedin';
     position: absolute;
     left: -4px;
-    color: green;
+    color: $bg-color;
+    z-index: -10;
   }
-
+  
+  &__links--linkedin:hover::after {
+    z-index: 1;
+  }
+  
   &__links--github::after {
     content: 'github';
     position: absolute;
     left: 3px;
-    color: green;
+    color: $bg-color;
+    z-index: -10;
+  }
+  &__links--github:hover::after {
+    z-index: 1;
   }
   &__links--twitter::after {
     content: 'twitter';
     position: absolute;
     left: 2px;
-    color: green;
+    color: $bg-color;
+    z-index: -10;
+  }
+  &__links--twitter:hover::after {
+    z-index: 1;
   }
 }
 
