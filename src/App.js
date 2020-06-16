@@ -2,11 +2,11 @@ import React from 'react';
 
 // components
 import Cursor from './Components/Cursor';
-import Header from './Components/Header';
-import AllProjects from './Components/AllProjects';
-import About from './Components/About';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
+import Header from './Components/Sections/Header';
+import AllProjects from './Components/Sections/AllProjects';
+import About from './Components/Sections/About';
+import Contact from './Components/Sections/Contact';
+import Footer from './Components/Sections/Footer';
 
 // styles
 import './styles/App.scss';
