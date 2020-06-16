@@ -1,13 +1,24 @@
 @import './App';
 
 .projects {
+  &__hover::after {
+    content: '';
+    transform: scale(1);
+  }
+
+  &__hover:hover::after {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    transform-origin: center;
+  }
 
   &__description {
     margin-bottom: $component-margin / 4;
     font-family: 'manrope';
     font-weight: 200;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-end;
   }
 
