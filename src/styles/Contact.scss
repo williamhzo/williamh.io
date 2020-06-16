@@ -1,11 +1,6 @@
 @import './App';
 
 .contact {
-  &__wrapper {
-    width: 75%;
-    margin-left: auto;
-  }
-
   &__item {
     font-weight: 200;
     font-size: 1.15rem;
@@ -34,8 +29,24 @@
   }
 
   &__email {
+    position: relative;
     font-weight: 400;
-    cursor: copy;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 4px;
+      height: 0.5rem;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.4);
+      transition: transform 0.2s ease-in-out;
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+    &:hover::after {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
   }
 
   &__email--copy {

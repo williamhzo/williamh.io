@@ -3,7 +3,7 @@ import React from 'react';
 const Project = ({ name, technologies, description, link }) => {
   return (
     <div>
-      <h5 className="projects__subtitle">
+      <h5 className="section__subtitle">
         <a
           href={link}
           rel="noopener noreferrer"

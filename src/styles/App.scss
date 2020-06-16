@@ -24,30 +24,26 @@ a:hover {
 h1 {
   font-weight: 300;
   font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 h2 {
   font-weight: 800;
   font-size: 7.25vmax;
-  line-height: 7vmax;
 }
 
 h3 {
   font-weight: 300;
   font-size: 1.25rem;
-  color: $secondary-color;
 }
 
 h4 {
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 200;
+  font-size: 1.25rem;
 }
 
 h5 {
   font-weight: 300;
   font-size: 2rem;
-  margin-bottom: $component-margin / 4;
 }
 
 .app {
@@ -61,6 +57,33 @@ body {
   box-sizing: border-box;
 }
 
+// global layout
+
+.section {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: $component-margin * 2;
+
+  &__wrapper {
+    width: 70%;
+    margin-left: auto;
+  }
+
+  &__title {
+    padding-right: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  &__subtitle {
+    margin-bottom: $component-margin / 4;
+  }
+}
+
+.content__separator {
+  margin: ($component-margin / 4) 0 ($component-margin / 2);
+  width: 100%;
+}
+
 // custom cursor
 
 .cursor {
@@ -71,4 +94,14 @@ body {
   border-radius: 50%;
   mix-blend-mode: difference;
   transition: transform 0.3s ease;
+}
+
+// responsiveness
+
+@media (max-width: 768px) {
+  .section {
+    &__title {
+      margin-bottom: 2rem;
+    }
+  }
 }

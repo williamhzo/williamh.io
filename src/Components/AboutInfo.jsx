@@ -3,7 +3,7 @@ import React from 'react';
 const AboutInfo = () => {
   return (
     <>
-      <h5 className="about__title">in a nutshell</h5>
+      <h5 className="section__subtitle">in a nutshell</h5>
       <p className="about__description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

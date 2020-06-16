@@ -1,20 +1,6 @@
 @import './App';
 
 .projects {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: $component-margin * 2;
-  &__title {
-    // line-height: 12px;
-    padding-right: 2rem;
-  }
-  &__wrapper {
-    width: 70%;
-    margin-left: auto;
-  }
-
-  &__link {
-  }
 
   &__description {
     margin-bottom: $component-margin / 4;
@@ -33,18 +19,10 @@
   &__info {
     font-size: 0.9rem;
   }
-
-  &__separator {
-    margin: ($component-margin / 4) 0 ($component-margin / 2);
-    width: 100%;
-  }
 }
 
 @media (max-width: 768px) {
   .projects {
-    &__title {
-      margin-bottom: 2rem;
-    }
     &__technologies {
       font-size: 0.9rem;
     }

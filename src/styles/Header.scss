@@ -22,6 +22,7 @@
 
   &__title {
     padding-right: $app-margin * 2;
+    line-height: 7vmax;
     color: $bg-color;
     text-shadow: -1px 1px 0 $primary-color, 1px 1px 0 $primary-color,
       1px -1px 0 $primary-color, -1px -1px 0 $primary-color;
@@ -59,6 +60,7 @@
 
   &__subtitle {
     margin-top: $component-margin;
+    color: $secondary-color;
   }
 
   &__list {
