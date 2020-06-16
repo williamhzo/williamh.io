@@ -2,11 +2,9 @@ import React from 'react';
 
 // components
 import Cursor from './Components/Cursor';
-import Header from './Components/Sections/Header';
-import AllProjects from './Components/Sections/AllProjects';
-import About from './Components/Sections/About';
-import Contact from './Components/Sections/Contact';
-import Footer from './Components/Sections/Footer';
+import Header from './Views/Header';
+import Body from './Views/Body';
+import Footer from './Views/Footer';
 
 // styles
 import './styles/App.scss';
@@ -22,9 +20,7 @@ function App() {
       <Cursor />
       <Header />
       <main className="main">
-        <AllProjects />
-        <About />
-        <Contact />
+        <Body />
       </main>
       <Footer />
     </section>

@@ -1,9 +1,16 @@
 @import './App';
 
+.Typewriter__cursor {
+  display: none;
+}
+
 .header {
   &__logo {
-    text-transform: uppercase;
+    position: absolute;
+    top: $app-margin;
+    left: $app-margin;
     letter-spacing: 0.4rem;
+    z-index: -1;
   }
 
   &__wrapper {
@@ -76,11 +83,11 @@
     color: $bg-color;
     z-index: -10;
   }
-  
+
   &__links--linkedin:hover::after {
     z-index: 1;
   }
-  
+
   &__links--github::after {
     content: 'github';
     position: absolute;

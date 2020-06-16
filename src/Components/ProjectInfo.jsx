@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ name, technologies, description, link }) => {
   return (
-    <div >
+    <div>
       <h5 className="projects__subtitle">
         <a
           href={link}
@@ -17,7 +17,7 @@ const Project = ({ name, technologies, description, link }) => {
         <p className="projects__technologies">{technologies}</p>
         <p className="projects__info">{description}</p>
       </div>
-      <hr className="projects__separator"></hr>
+      <hr className="content__separator"></hr>
     </div>
   );
 };
