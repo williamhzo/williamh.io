@@ -1,8 +1,8 @@
 import React from 'react';
 
-import SocialLinks from './SocialLinks';
+import SocialLinks from '../SocialLinks';
 
-import socials from '../data/socials.json';
+import socials from '../../data/socials.json';
 
 const Header = () => {
   return (
@@ -16,7 +16,8 @@ const Header = () => {
           <span className="header__title--fullCaps">
             <nobr>Front-End</nobr> Developer
           </span>{' '}
-          <span className="header__title--transparent">&</span> Web Designer.
+          <span className="header__title--transparent">&</span>{' '}
+          <nobr>Web Designer</nobr>.
         </h2>
         <ul className="header__list">
           {socials.map((item, index) => (
