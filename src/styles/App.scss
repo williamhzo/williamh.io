@@ -56,6 +56,23 @@ body {
   box-sizing: border-box;
 }
 
+// selection highlight color
+// .white-highlight::selection {
+//   background: $primary-color;
+// }
+
+// .white-highlight::-moz-selection {
+//   background: $primary-color;
+// }
+
+// .dark-highlight::selection {
+//   background: $bg-color;
+// }
+
+// .white-highlight::-moz-selection {
+//   background: $bg-color;
+// }
+
 // set up noise bg
 .app {
   background-color: $bg-color;
