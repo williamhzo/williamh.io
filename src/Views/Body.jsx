@@ -10,7 +10,9 @@ const Body = () => {
   return (
     <>
       <section className="projects section">
-        <h4 className="section__title">selected projects.</h4>
+        <h4 className="section__title section__title--padding">
+          selected projects.
+        </h4>
         <div className="section__wrapper">
           {projects.map((project, index) => (
             <Project
