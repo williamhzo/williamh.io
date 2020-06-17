@@ -52,6 +52,7 @@ body {
 
 .app {
   background-color: $bg-color;
+  z-index: 1;
 }
 
 // global layout
@@ -63,6 +64,10 @@ body {
   &__wrapper {
     width: 100%;
     padding-left: 4rem;
+  }
+
+  &__title:first-child {
+    padding-top: $app-margin;
   }
 
   &__title {

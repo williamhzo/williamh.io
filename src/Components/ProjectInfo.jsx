@@ -3,20 +3,17 @@ import React from 'react';
 const Project = ({ name, technologies, description, link }) => {
   return (
     <>
-      <div className="projects__description">
-        <h5 className="section__subtitle">
-          <a
-            href={link}
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects__link animate-cursor"
-          >
-            {name}
-          </a>
-        </h5>
+      <a
+        href={link}
+        rel="noopener noreferrer"
+        target="_blank"
+        className="projects__link"
+      >
+        <h5 className="section__subtitle">{name} </h5>
+
         {/* <p className="projects__technologies">{technologies}</p> */}
         <p className="projects__info">{description}</p>
-      </div>
+      </a>
       <hr className="content__separator"></hr>
     </>
   );
