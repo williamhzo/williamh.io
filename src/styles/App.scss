@@ -52,9 +52,13 @@ h5 {
 
 body {
   font-family: 'Manrope', Arial, sans-serif;
-  background-color: $bg-color;
   color: $primary-color;
   box-sizing: border-box;
+}
+
+// set up noise bg
+.app {
+  background-color: $bg-color;
 }
 
 // global layout
@@ -80,7 +84,6 @@ body {
 }
 
 .content__separator {
-  // margin-top: $app-margin;
   width: 100%;
 }
 
@@ -105,3 +108,5 @@ body {
     }
   }
 }
+
+// animation for grain bg
