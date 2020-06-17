@@ -111,13 +111,6 @@ body {
   }
 }
 
-// remove cursor if user is not on desktop
-@media screen and (prefers-reduced-motion: reduce) {
-  .cursor {
-    display: none;
-  }
-}
-
 @media (max-width: 768px) {
   .header {
     &__list {
@@ -135,6 +128,10 @@ body {
     &__links--mobile {
       margin-right: $app-margin;
     }
+  }
+  
+  .cursor {
+    display: none;
   }
 }
 
