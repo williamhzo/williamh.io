@@ -1,7 +1,7 @@
 @import './App';
 
 .footer {
-  margin-top: 36vmin;
+  margin: 36vmin 0 $app-margin;
   display: flex;
   flex-direction: column;
   justify-content: center;
