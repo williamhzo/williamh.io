@@ -139,6 +139,11 @@ body {
 }
 
 @media (max-width: 512px) {
+  .header {
+    &__title {
+      padding-right: 0;
+    }
+  }
 
   .section {
     margin: $app-margin * 2 $app-margin;
