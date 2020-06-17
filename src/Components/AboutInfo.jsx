@@ -3,7 +3,7 @@ import React from 'react';
 const AboutInfo = () => {
   return (
     <>
-      <h5 className="section__subtitle">in a nutshell</h5>
+      <h5 className="section__subtitle section__subtitle--margin">in a nutshell</h5>
       <p className="about__description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -26,6 +26,7 @@ const AboutInfo = () => {
         </a>
         .
       </p>
+      <p className="about__description">Stack: HTML/SCSS, JS/TS, React, Node, MongoDB | Design: Sketch, Figma.</p>
       <hr className="content__separator"></hr>
     </>
   );
