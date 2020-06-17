@@ -2,16 +2,21 @@
 
 .projects {
   &__description:first-child {
-    margin-top: 0;
+    padding-top: 0;
   }
 
   &__description {
-    margin: $app-margin 0;
+    padding: $app-margin 0;
     font-family: 'manrope';
     font-weight: 200;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.1s ease;
+  }
+
+  &__description:hover {
+    transform: scaleX(0.98);
   }
 
   &__technologies {
