@@ -1,27 +1,18 @@
 @import './App';
 
 .projects {
-  &__description:first-child {
-    padding-top: 0;
-  }
-
-  &__description {
+  &__link {
     padding: $app-margin 0;
     font-family: 'manrope';
     font-weight: 200;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: transform 0.1s ease;
+    transition: all 0.1s ease;
   }
 
-  &__description:hover {
+  &__link:hover {
     transform: scaleX(0.98);
-  }
-
-  &__technologies {
-    font-size: 1.25rem;
-    margin-right: 2rem;
   }
 
   &__info {
