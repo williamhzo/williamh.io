@@ -17,7 +17,9 @@ const ContactInfo = () => {
 
   return (
     <>
-      <h5 className="section__subtitle">let's get in touch</h5>
+      <h5 className="section__subtitle section__subtitle--margin">
+        let's get in touch
+      </h5>
       <ul className="contact__info">
         <li className="contact__item">
           I’m currently accepting freelance work. Feel free to reach out, I’ll
