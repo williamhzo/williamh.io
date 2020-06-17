@@ -3,10 +3,10 @@ import React from 'react';
 const SocialLinks = ({ link, shortName, fullName }) => {
   return (
     <li className="header__items">
-      <div></div>
+
       <a
         href={link}
-        className="header__links animate-cursor-large"
+        className="header__links header__links--mobile animate-cursor-large"
         target="_blank"
         rel="noopener noreferrer"
       >

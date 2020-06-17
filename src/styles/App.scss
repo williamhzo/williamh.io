@@ -97,10 +97,56 @@ body {
 
 // responsiveness
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .section {
+    flex-direction: column;
+
+    &__wrapper {
+      margin-right: $app-margin;
+      padding: 0;
+    }
     &__title {
       margin-bottom: 2rem;
+    }
+  }
+}
+
+// remove cursor if user is not on desktop
+@media screen and (prefers-reduced-motion: reduce) {
+  .cursor {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__list {
+      display: none;
+    }
+
+    &__wrapper {
+      padding-right: 0;
+    }
+
+    &__list--mobile {
+      display: flex;
+    }
+
+    &__links--mobile {
+      margin-right: $app-margin;
+    }
+  }
+}
+
+@media (max-width: 512px) {
+
+  .section {
+    margin: $app-margin * 2 $app-margin;
+  }
+  .projects {
+    &__info {
+      font-size: 0.75rem;
+      margin-left: $app-margin/2;
     }
   }
 }

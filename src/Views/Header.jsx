@@ -46,6 +46,11 @@ const Header = () => {
         I design & code meaningful, user-centered applications for the modern
         web.
       </h3>
+      <ul className="header__list--mobile">
+        {socials.map((item, index) => (
+          <SocialLinks key={index} link={item.link} shortName={item.fullName} />
+        ))}
+      </ul>
     </header>
   );
 };

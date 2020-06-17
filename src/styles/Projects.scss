@@ -19,14 +19,3 @@
     font-size: 0.9rem;
   }
 }
-
-@media (max-width: 768px) {
-  .projects {
-    &__technologies {
-      font-size: 0.9rem;
-    }
-    &__info {
-      font-size: 0.75rem;
-    }
-  }
-}
