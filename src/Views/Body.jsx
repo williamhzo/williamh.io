@@ -24,17 +24,13 @@ const Body = () => {
         </div>
       </section>
       <section className="about section">
-        <h4 className="section__title">
-          about me.
-        </h4>
+        <h4 className="section__title">about me.</h4>
         <div className="section__wrapper">
           <AboutInfo />
         </div>
       </section>
       <section className="contact section">
-        <h4 className="section__title">
-          want to say hi?
-        </h4>
+        <h4 className="section__title">want to say hi?</h4>
         <div className="section__wrapper">
           <ContactInfo />
         </div>
