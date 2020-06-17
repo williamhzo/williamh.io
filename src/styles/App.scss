@@ -47,11 +47,11 @@ h5 {
 body {
   font-family: 'Manrope', Arial, sans-serif;
   color: $primary-color;
+  background-color: $bg-color;
   box-sizing: border-box;
 }
 
 .app {
-  background-color: $bg-color;
   z-index: 1;
 }
 
@@ -129,7 +129,7 @@ body {
       margin-right: $app-margin;
     }
   }
-  
+
   .cursor {
     display: none;
   }
