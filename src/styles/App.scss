@@ -62,11 +62,11 @@ body {
 
   &__wrapper {
     width: 100%;
-    margin-left: 2rem;
+    padding-left: 4rem;
   }
 
   &__title {
-    width: 385px;
+    min-width: 292px;
     letter-spacing: 0.5rem;
     color: $secondary-color;
   }
