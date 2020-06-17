@@ -1,14 +1,11 @@
 @import './reset';
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700;800&display=swap');
-// spaces, margins
 
+// spaces, margins
 $app-margin: 2rem;
 
-// noise bg
-// background-url: http://api.thumbr.it/whitenoise-361x370.png?background=#0c100fa6ca00&noise=626262&density=56&opacity=9
-
 // color
-$bg-color: #0c100f;
+$bg-color: #0e1311;
 $primary-color: #f5f6f6;
 $secondary-color: #97a9a8;
 
@@ -47,33 +44,12 @@ h5 {
   font-size: 1.15rem;
 }
 
-.app {
-}
-
 body {
   font-family: 'Manrope', Arial, sans-serif;
   color: $primary-color;
   box-sizing: border-box;
 }
 
-// selection highlight color
-// .white-highlight::selection {
-//   background: $primary-color;
-// }
-
-// .white-highlight::-moz-selection {
-//   background: $primary-color;
-// }
-
-// .dark-highlight::selection {
-//   background: $bg-color;
-// }
-
-// .white-highlight::-moz-selection {
-//   background: $bg-color;
-// }
-
-// set up noise bg
 .app {
   background-color: $bg-color;
 }
@@ -125,5 +101,3 @@ body {
     }
   }
 }
-
-// animation for grain bg
