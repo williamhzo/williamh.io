@@ -35,7 +35,7 @@ const ContactInfo = () => {
             {copy ? '(copied!)' : '(click to copy)'}
           </span>
         </li>
-        <li className="contact__item">
+        <li className="contact__item section__subtitle--margin">
           Stalk me on{' '}
           <a
             href="https://www.linkedin.com/in/williamhermozo/"

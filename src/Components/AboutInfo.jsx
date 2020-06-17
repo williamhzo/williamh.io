@@ -23,9 +23,8 @@ const AboutInfo = () => {
         </span>{' '}
         wake up in the morning.
       </p>
-      <p className="about__description">
-        You can take a look at my
-        resume{' '}
+      <p className="about__description section__subtitle--margin">
+        You can take a look at my resume{' '}
         <a
           href="/media/CV_William-HERMOZO-2020-min.pdf"
           className="about__link"
