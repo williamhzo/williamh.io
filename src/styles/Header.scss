@@ -70,7 +70,7 @@
     align-items: center;
     height: 192px;
   }
-  
+
   &__links {
     font-weight: 200;
     font-size: 1rem;
@@ -83,7 +83,7 @@
     position: absolute;
     left: -4px;
     color: $bg-color;
-    z-index: -10;
+    z-index: -1;
   }
 
   &__links--linkedin:hover::after {
@@ -95,7 +95,7 @@
     position: absolute;
     left: 3px;
     color: $bg-color;
-    z-index: -10;
+    z-index: -1;
   }
   &__links--github:hover::after {
     z-index: 1;
@@ -105,7 +105,7 @@
     position: absolute;
     left: 2px;
     color: $bg-color;
-    z-index: -10;
+    z-index: -1;
   }
   &__links--twitter:hover::after {
     z-index: 1;
