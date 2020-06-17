@@ -2,19 +2,19 @@
   {
     "name": "freely",
     "technologies": "React.js, Node.js, Express, MongoDB",
-    "description": "PWA, mobile-first | 2020",
+    "description": "design & full-stack dev | PWA, mobile-first | 2020",
     "link": "https://www.freely.cool/"
   },
   {
     "name": "scoby",
     "technologies": "Vanilla JavaScript, Node.js, Express, MongoDB",
-    "description": "Map-based, mobile-first | 2020",
+    "description": "design & full-stack dev | Map-based, mobile-first | 2020",
     "link": "https://scoby-frw.herokuapp.com/"
   },
   {
     "name": "emoji-quiz",
     "technologies": "Vanilla JavaScript, HTML5, CSS3",
-    "description": "SPA | 2020",
+    "description": "design & front-end dev | SPA | 2020",
     "link": "https://williamhzo.github.io/emoji-quiz/"
   }
 ]
