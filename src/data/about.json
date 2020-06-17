@@ -1,9 +1,6 @@
 [
   {
-    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum commodo est quis tincidunt. Etiam nec elit porttitor, vulputate tellus eget, gravida nunc."
-  },
-  {
-    "aboutMe": "Maecenas euismod urna venenatis, blandit nisl eget, porttitor justo. Morbi sit amet tristique justo. Mauris accumsan augue orci."
+    "aboutMeIntro": "I'm a Full-Stack JavaScript Developer based in Paris. Passionate about technology and design, I tend to focus most of my work, research and learning on Front-End. Sensible to UX, I'm a strong believer that products can be unique, creative and authentic as well as providing a great user-friendly experience."
   },
   {
     "tools": "Stack: HTML/SCSS, JS/TS, React, Node, MongoDB | Design: Sketch, Figma."

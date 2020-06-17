@@ -3,9 +3,9 @@
 // spaces, margins
 
 $app-margin: 2rem;
-$component-margin: 2.25rem;
 
-// font
+// noise bg
+// background-url: http://api.thumbr.it/whitenoise-361x370.png?background=#0c100fa6ca00&noise=626262&density=56&opacity=9
 
 // color
 $bg-color: #0c100f;
@@ -48,7 +48,7 @@ h5 {
 }
 
 .app {
-  margin: $app-margin;
+  border: blue 2px solid;
 }
 
 body {
@@ -62,7 +62,7 @@ body {
 
 .section {
   display: flex;
-  margin-top: $component-margin * 4;
+  margin: ($app-margin * 4) $app-margin 0;
 
   &__wrapper {
     width: 100%;
@@ -76,12 +76,12 @@ body {
   }
 
   &__subtitle--margin {
-    margin-bottom: $component-margin;
+    margin-bottom: $app-margin;
   }
 }
 
 .content__separator {
-  margin-top: $component-margin;
+  margin-top: $app-margin;
   width: 100%;
 }
 
