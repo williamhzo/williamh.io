@@ -9,5 +9,14 @@
   &__credits {
     font-size: 1rem;
     color: $secondary-color;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    &__credits {
+      font-size: 0.75rem;
+    }
   }
 }

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p className="footer__credits">
-        - Copyright williamh.io © 2020 ALL RIGHTS RESERVED -
+        - Hermozo 2020 © ALL RIGHTS RESERVED -
       </p>
       <p className="footer__credits">Designed and coded from scratch.</p>
     </footer>
