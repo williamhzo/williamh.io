@@ -17,3 +17,4 @@ const SocialLinks = ({ link, shortName, fullName }) => {
 };
 
 export default SocialLinks;
+
